@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo"
+    android:id="@+id/configuracion"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/orange2"
+        >
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_porton"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:gravity="start"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/configuracion"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apariencia"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tema"
+            android:padding="8dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tamano_letras"
+            android:padding="8dp"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/otros"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:background="@color/grey"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datos_de_usuario"
+            android:padding="8dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cambiar_contrasena"
+            android:padding="8dp"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCerrarSesión"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cerrar_sesion"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/red"
+        />
+
+    <Button
+        android:id="@+id/btnVolverPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volver_al_menuPrincipal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/orange"
+        />
+
+    <ImageView
+        android:layout_width="109dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/img" />
+
+</LinearLayout>
